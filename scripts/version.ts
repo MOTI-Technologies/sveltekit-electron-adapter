@@ -18,6 +18,7 @@ const logger = new Logger();
 const version = pkg.version.split(".");
 let next_version, patch;
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const argv: any = yargs(process.argv.slice(2)).argv;
 
 switch (argv.cmd) {

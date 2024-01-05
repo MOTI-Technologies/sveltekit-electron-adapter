@@ -1,5 +1,5 @@
-import adapter from "@ptkdev/sveltekit-electron-adapter";
-import { vitePreprocess } from '@sveltejs/kit/vite';
+import adapter from "../../app/adapter/index.js";
+import { vitePreprocess } from '@sveltejs/vite-plugin-svelte';
 
 /** @type {import('@sveltejs/kit').Config} */
 const config = {

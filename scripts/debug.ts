@@ -12,6 +12,7 @@ import * as fs from "fs";
 import * as shell from "shelljs";
 import yargs from "yargs";
 import { dirname } from "path";
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const argv: any = yargs(process.argv.slice(2)).argv;
 const __dirname = dirname;
 
